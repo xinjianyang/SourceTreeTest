@@ -33,4 +33,9 @@ public class HomeController {
         model.addAttribute("res","success");
         return "index";
     }
+    //test  sourceTree
+    @GetMapping("/ik")
+    public String getSomething(){
+        return "something";
+    }
 }
